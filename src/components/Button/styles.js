@@ -1,0 +1,35 @@
+import styled from 'styled-components'
+
+export const Container = styled.button`
+    width: 100%;
+    height: fit-content;
+    padding: 1.2rem 3.2rem;
+    white-space: nowrap;
+
+    background-color: ${({theme}) => theme.COLORS.secondary};
+    color: ${({theme}) => theme.COLORS.light_000};
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.1rem;
+    
+    border: 0;
+    border-radius: .5rem;
+    
+    font-family: 'Lato', sans-serif;
+    
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+
+    &:disabled {
+        opacity: 0.5;
+        cursor: default;
+
+        &:hover {
+            filter: brightness(1)
+        }
+    }
+
+`;
