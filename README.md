@@ -74,10 +74,10 @@
 
 - Com a ausência de erros o botão enviar passa a fica habilitado
 
-![ausenciaDeErrosEBotaoEnviarHabilitado](ausença_de_erros_e_botao_de_enviar_habilitado.png.png)
+![ausenciaDeErrosEBotaoEnviarHabilitado](ausencia_de_erros_e_botao_de_enviar_habilitado.png)
 
 ### Apertar botão Enviar
 
-- Limpa os relatório e fica habilitado o envio de um novo relatório (Para enviar o mesmo relatório é preciso reiniciar a página)
+- Limpa os relatório e fica habilitado o envio de um novo relatório (Para enviar o mesmo arquivi novamente é preciso reiniciar a página)
 
 ![envioDeAtualizacao](envio_de_atualizacao.png)
