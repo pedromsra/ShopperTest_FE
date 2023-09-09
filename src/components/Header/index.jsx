@@ -15,7 +15,7 @@ export function Header(){
         <div className='menu'>
           <Link><div className="menuIcon"><div className='icon'><HiOutlineShoppingBag size={20} /></div><p className='description'>Lojas</p></div></Link>
           <Link><div className="menuIcon"><div className='icon'><HiUsers size={20} /></div><p className='description'>Usuário</p></div></Link>
-          <Link to="/updates"><div className="menuIcon"><div className='icon'><MdSystemUpdateAlt size={20} /></div><p className='description'>Atualizar Preços</p></div></Link>
+          <Link to="/"><div className="menuIcon"><div className='icon'><MdSystemUpdateAlt size={20} /></div><p className='description'>Atualizar Preços</p></div></Link>
         </div>
       </div>
     </Container>
